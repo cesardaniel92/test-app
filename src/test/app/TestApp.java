@@ -19,4 +19,8 @@ public class TestApp {
         System.out.println("Hello from TestApp!");
     }
     
+    public static int returnOne(){
+        return 1;
+    }
+    
 }
