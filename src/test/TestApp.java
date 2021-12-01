@@ -27,7 +27,7 @@ public class TestApp {
         
         Common_Tools.runTestNgXml("testng.xml");
                 
-        String FILENAME = "test-output\\testng-results.xml";
+        String FILENAME = "test-output/testng-results.xml";
         Common_Tools.DisplayTestReport(FILENAME);
 //        
 //        TestListenerAdapter tla = new TestListenerAdapter();
