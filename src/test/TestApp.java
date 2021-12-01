@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
-import common_tools.*;
+import common_tools.Common_Tools;
 
 /**
  *
@@ -23,13 +23,13 @@ public class TestApp {
    public static void main(String[] args) throws Exception{
         System.out.println("Main tester code ...");
         
-        Helper1 myHelper1 = new Helper1();       
+//        Helper1 myHelper1 = new Helper1();       
         
         Common_Tools.runTestNgXml("testng.xml");
                 
         String FILENAME = "test-output\\testng-results.xml";
         Common_Tools.DisplayTestReport(FILENAME);
-        
+//        
 //        TestListenerAdapter tla = new TestListenerAdapter();
 //        TestNG testNG = new TestNG();
 //        List<String> suites = new ArrayList();
