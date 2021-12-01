@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuite]">
+  <parameter name="suite-param" value="suite level parameter"/>
+  <test thread-count="5" name="myTest-Classes(failed)">
+    <parameter name="test-two-param" value="Test two parameter"/>
+    <classes>
+      <class name="testTst.Helper1NGTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+          <include name="testAddValues"/>
+          <include name="testMultiplyValues"/>
+        </methods>
+      </class> <!-- testTst.Helper1NGTest -->
+    </classes>
+  </test> <!-- myTest-Classes(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->

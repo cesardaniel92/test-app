@@ -1,0 +1,10 @@
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >-->
+<suite name="MyTestSuite" verbose="1" >
+    <parameter name="suite-param" value="suite level parameter" />
+    <test name="myTest-Classes" >
+        <parameter name="test-two-param" value="Test two parameter" />
+        <classes>
+            <class name="testTst.Helper1NGTest" />              
+        </classes>
+    </test>    
+</suite>

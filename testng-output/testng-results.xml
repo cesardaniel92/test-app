@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTestSuite" duration-ms="27" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+    <groups>
+    </groups>
+    <test name="myTest-Classes" duration-ms="27" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+      <class name="testTst.Helper1NGTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testTst.Helper1NGTest@e6ea0c6]" name="setUpClass" is-config="true" duration-ms="10" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testTst.Helper1NGTest@e6ea0c6]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testAddValues()[pri:0, instance:testTst.Helper1NGTest@e6ea0c6]" name="testAddValues" duration-ms="0" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddValues -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testTst.Helper1NGTest@e6ea0c6]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testTst.Helper1NGTest@e6ea0c6]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testTst.Helper1NGTest@e6ea0c6]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testTst.Helper1NGTest@e6ea0c6]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="testMultiplyValues()[pri:0, instance:testTst.Helper1NGTest@e6ea0c6]" name="testMultiplyValues" duration-ms="0" started-at="2021-12-01T16:11:47Z" finished-at="2021-12-01T16:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplyValues -->
+      </class> <!-- testTst.Helper1NGTest -->
+    </test> <!-- myTest-Classes -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>
