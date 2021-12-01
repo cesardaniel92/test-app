@@ -10,7 +10,7 @@
 <project name="Test-App" default="default" basedir=".">
     <description>Builds, tests, and runs the project Test-App.</description>
     <import file="nbproject/build-impl.xml"/>
-    <target name="-post-deploy">
+    <target name="-pre-jar">
         <copy todir="dist/lib">
             <fileset dir="lib">
                 <include name="**/*.jar"/>
