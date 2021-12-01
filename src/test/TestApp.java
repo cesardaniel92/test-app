@@ -25,19 +25,18 @@ public class TestApp {
         
 //        Helper1 myHelper1 = new Helper1();       
         
-        Common_Tools.runTestNgXml("testng.xml");
-                
-        String FILENAME = "test-output/testng-results.xml";
-        Common_Tools.DisplayTestReport(FILENAME);
-//        
-//        TestListenerAdapter tla = new TestListenerAdapter();
-//        TestNG testNG = new TestNG();
-//        List<String> suites = new ArrayList();
-//        suites.add("testng.xml");//path to xml..
-//        testNG.setTestSuites(suites);
-//        String TestOutputPath = System.getProperty("user.dir");         
-//        testNG.setOutputDirectory(TestOutputPath + "/testng-output");  
-//        testNG.run();
+//        Common_Tools.runTestNgXml("testng.xml");                
+//        String FILENAME = "test-output/testng-results.xml";
+//        Common_Tools.DisplayTestReport(FILENAME);
+        
+        TestListenerAdapter tla = new TestListenerAdapter();
+        TestNG testNG = new TestNG();
+        List<String> suites = new ArrayList();
+        suites.add("testng.xml");//path to xml..
+        testNG.setTestSuites(suites);
+        String TestOutputPath = System.getProperty("user.dir");         
+        testNG.setOutputDirectory(TestOutputPath + "/testng-output");  
+        testNG.run();
         
         // simple change to trigger Team City build ...
         
