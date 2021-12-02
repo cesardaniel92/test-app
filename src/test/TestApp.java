@@ -21,7 +21,13 @@ public class TestApp {
      * @param args the command line arguments
      */
    public static void main(String[] args) throws Exception{
-        System.out.println("Main tester code ...");
+       
+       
+        System.out.println("Main tester code with args ...");
+        
+        for (String arg:args){
+            System.out.println(arg);
+        }
         
 //        Helper1 myHelper1 = new Helper1();       
         
